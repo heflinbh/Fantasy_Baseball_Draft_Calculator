@@ -26,7 +26,7 @@ class PlayerPool:
                               c.PI:self.pitcher_list}
 
     def parseDataFrames(self):
-        with pd.ExcelFile(c.EXCEL_SOURCE) as reader:
+        with pd.ExcelFile(c.EXCEL_INPUT) as reader:
             catcher_df = pd.read_excel(reader, sheet_name=c.CA)[[c.NAME, c.POINTS]]
             corner_df = pd.read_excel(reader, sheet_name=c.CI)[[c.NAME, c.POINTS]]
             middle_df = pd.read_excel(reader, sheet_name=c.MI)[[c.NAME, c.POINTS]]

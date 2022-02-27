@@ -1,4 +1,5 @@
-EXCEL_SOURCE = "/Users/benjaminheflin/Desktop/Baseball/Baseball 2021.xlsx"
+EXCEL_INPUT = "/Users/benjaminheflin/Desktop/Baseball/Baseball 2021.xlsx"
+EXCEL_OUTPUT = "/Users/benjaminheflin/Downloads/2022_baseball_test.xlsx"
 
 NUM_TEAMS = 8
 BUDGET_PER_TEAM = 273
@@ -31,4 +32,5 @@ NUM_POS_PER_TEAM = {
 
 NAME = "Name"
 POINTS = "Points"
+PRICE = "Price"
 
